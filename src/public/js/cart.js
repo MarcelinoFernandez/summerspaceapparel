@@ -49,7 +49,7 @@ Vue.component('cart-total', {
                 <li>Subtotal <span>{{ getTotalInRupiah }}</span></li>
                 <li>Total <span>{{ getTotalInRupiah }}</span></li>
             </ul>
-            <a href="./checkout.html" class="primary-btn">Proceed to checkout</a>
+            <a href="/user/checkout" class="primary-btn">Proceed to checkout</a>
         </div>
     `
 })
